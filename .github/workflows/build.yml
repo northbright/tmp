@@ -35,3 +35,6 @@ jobs:
 
     - name: Test
       run: ls -la && ./tmp
+
+    - name: echo Test
+      run: echo name: Frank > $HOME/.demo.yaml
