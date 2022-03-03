@@ -31,10 +31,7 @@ jobs:
         go-version: ${{ matrix.go }}
 
     - name: Build
-      run: go build -v ./... && ls -la
-
-    - name: Test
-      run: ls -la && ./tmp
+      run: go build -v ./...
 
     - name: echo Test
       run: 'echo name: Frank > $HOME/.demo.yaml && cat $HOME/.demo.yaml'
