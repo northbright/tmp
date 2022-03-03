@@ -37,4 +37,4 @@ jobs:
       run: ls -la && ./tmp
 
     - name: echo Test
-      run: 'echo name: Frank > $HOME/.demo.yaml' && 'cat $HOME/.demo.yaml'
+      run: 'echo name: Frank > $HOME/.demo.yaml && cat $HOME/.demo.yaml'
