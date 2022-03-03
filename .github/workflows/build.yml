@@ -34,4 +34,4 @@ jobs:
       run: go build -v ./...
 
     - name: echo Test
-      run: 'echo name: Frank > $HOME/.demo.yaml && cat $HOME/.demo.yaml'
+      run: echo name: Frank > $HOME/.demo.yaml && cat $HOME/.demo.yaml
